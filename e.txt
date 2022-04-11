@@ -1,0 +1,4 @@
+try:
+  open("e.txt", "r")
+except:
+  open("e.txt", "w")
